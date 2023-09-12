@@ -4,7 +4,15 @@ import App from './App.jsx'
 import './index.css'
 import { QueryClient,QueryClientProvider } from '@tanstack/react-query'
 import {ReactQueryDevtools} from "@tanstack/react-query-devtools"
-const queryClient=new QueryClient()
+
+const queryClient=new QueryClient({
+  defaultOptions:{
+      queries:{
+        // time after which data will get stale from being fresh and fetching will be done once the page renders
+        staleTime:1000*60*5
+      }
+    }
+  })
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <QueryClientProvider client={queryClient}>
