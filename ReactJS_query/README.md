@@ -5,11 +5,11 @@
     
  ## Important function.
    * 1.useQuery()
-     .queryFn
-        .queryKey
+     --queryFn
+     --queryKey
    * 2.useMutation()
-      .mutatationFn
-      .onSuccess
+      --mutatationFn
+      --onSuccess
    * 3.useQueryClient()
 
  ##  NOTE: There are other usefull function and methods but these are the ones which will get you started with the TanStack Query and other will be updated on this soon
