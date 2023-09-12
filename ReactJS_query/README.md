@@ -4,22 +4,23 @@
     It is an asynchronous state management library.
     
  ## Important function.
-   1.useQuery()
-      .queryFn
-      .queryKey
-   3.useMutation()
+   * 1.useQuery()
+     .queryFn
+        .queryKey
+   * 2.useMutation()
       .mutatationFn
       .onSuccess
-   2.useQueryClient()
-   <!-- NOTE: There are other usefull function and methods but these are the ones which will get you started with the TanStack Query -->
+   * 3.useQueryClient()
+
+ ##  NOTE: There are other usefull function and methods but these are the ones which will get you started with the TanStack Query and other will be updated on this soon
 
   ## Some QnA
 
-   1.What is a queryKey?
+  ### 1.What is a queryKey?
       queryKey are used so that the library can internally cache your data correctly and refetch automatically when a dependency to your query changes. Query keys have to be an Array at the top level, and can be as simple as an Array with a single string, or as complex as an array of many strings and nested objects.
       you can use {exact:true} while invalidating the queries to generate for the specific type of queryKey and so that it does not make unnecessary invalidations and regenerate.
 
-   2.How many arguements does mutationFn and queryFn takes?
+   ### 2.How many arguements does mutationFn and queryFn takes?
      It takes only one arguement so if you wanna pass more than one arguement make sure to pass those arguments in a object and then pass that into the mutate method.
 
 ## Practical 
