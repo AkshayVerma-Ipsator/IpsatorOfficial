@@ -12,7 +12,7 @@
       --onSuccess
    * 3.useQueryClient()
 
- ##  NOTE: There are other usefull function and methods but these are the ones which will get you started with the TanStack Query and other will be updated on this soon
+ ##  NOTE: There are other useful functions and methods but these are the ones which will get you started with the TanStack Query and other will be updated on this soon
 
   ## Some QnA
 
