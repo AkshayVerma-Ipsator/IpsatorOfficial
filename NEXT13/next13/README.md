@@ -5,18 +5,19 @@
 
 ## Features
  App routing-
+ 
     1.Special files
-        Naming convention-Strict
-        -not-found.jsx
-            for creating not found page
-            you can call it anywhere in your next app by the function name notFound();
-        -layout.jsx
-            for creating layouts for different sections
-        -loading.jsx
-            for loader purposes (though all the async ops would be done only on server side and client would not be seeing this)
-        -"use client"
-            for rendering the component on the client side
-        -error.jsx
+            Naming convention-Strict
+            -not-found.jsx
+                for creating not found page
+                you can call it anywhere in your next app by the function name notFound();
+            -layout.jsx
+                for creating layouts for different sections
+            -loading.jsx
+                for loader purposes (though all the async ops would be done only on server side and client would not be seeing this)
+            -"use client"
+                for rendering the component on the client side
+            -error.jsx
     
     2.Server Side Components and Client Side components
         1.Make a different component folder for third party components which may be using hooks like useEffect useState etc because they need to be called in client component so use the keyword "use client" for all of those components and then use them.
