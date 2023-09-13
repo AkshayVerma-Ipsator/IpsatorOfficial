@@ -10,8 +10,9 @@ import {
     createIcon,
     SimpleGrid,
   } from '@chakra-ui/react'
-import { VisionData } from '../../Data/data';
+import { VisionData, highlights } from '../../Data/data';
 import VisionCards from '../../components/visionCards';
+import Highlights from '../../components/highlights';
 
 const Hero = () => {
   return (
@@ -19,7 +20,7 @@ const Hero = () => {
     <Stack
       align={'center'}
       spacing={{ base: 8, md: 10 }}
-      py={{ base: 20, md: 28 }}
+      py={{ base: 15, md: 20 }}
       direction={{ base: 'column', md: 'row' }}>
       <Stack flex={1} spacing={{ base: 5, md: 10 }}>
         <Heading
@@ -92,7 +93,7 @@ const Hero = () => {
           {VisionData.map((el,i)=><VisionCards key={i} img={el.img} width={el.width} text={el.text}/>)}
       </SimpleGrid>
     </Box>
-      <Box  py="100px" boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px;" mt="50px" borderRadius={"12px"} p="40px" bgColor={"RGB(138 170 229)"} color="white">
+      <Box  boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px;" my="50px" borderRadius={"12px"} p="40px" bgColor={"RGB(138 170 229)"} color="white">
               <Heading 
                     lineHeight={1.1} fontWeight={600} textAlign={"center"} pb="32px"
                     fontSize={"50px"} color="white">
@@ -106,16 +107,14 @@ const Hero = () => {
               handling in the country.
               </Text>
       </Box>
-      <Box>
+      <Box boxShadow={"rgba(0, 0, 0, 0.24) 0px 3px 8px;"} py="20px" bgColor="orange.100">
       <Heading 
                     lineHeight={1.1} fontWeight={600} textAlign={"center"} pb="32px"
-                    fontSize={"50px"} color="white">
-                HIGHLIGHTS OF INITIATIVES UNDER WASTE TO WEALTH MISSION
+                    fontSize={"32px"} color="blackAlpha.800">
+                Highlights of initiatives under WASTE TO WEALTH MISSION
               </Heading>
-              <SimpleGrid columns={4}>
-              <Text as="h3" textAlign={"center"} fontSize={"20px"} px="50px">
-
-              </Text>
+              <SimpleGrid columns={4} gap="20px"w="90%" m="auto">
+                  {highlights.map((el,i)=><Highlights key={i} first={el.first} text={el.text}/>)}
               </SimpleGrid>
       </Box>
   </Container>

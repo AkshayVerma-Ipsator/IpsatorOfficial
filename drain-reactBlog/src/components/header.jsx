@@ -33,7 +33,7 @@ const Header = () => {
                 <Text display={"flex"} alignItems={"center"} gap="4px">
                     Sections
                 <FaChevronDown />
-                    </Text>
+                </Text>
             </MenuButton>
             <MenuList color="black" display={"grid"} gridTemplateColumns={"rea"}>
                 <MenuItem></MenuItem>
