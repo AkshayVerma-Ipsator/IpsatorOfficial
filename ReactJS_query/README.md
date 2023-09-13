@@ -30,4 +30,9 @@
 
 *  There is one main page of the app by The heading TanStack Query in the app.jsx file where all the posts are being displayed (postQuery) and posts can also be added from here (newMutationPosts) and there is one another file post.jsx which holds the individual post and updatation and deletion of the post happens(updateMutationPost & deleteMutationPost ).
 
+<!-- * ### Necessary dependencies
+    tanstack/react-query
+    tanstack/react-query-devtools
+    json-server -->
+
    
