@@ -107,13 +107,13 @@ const Hero = () => {
               handling in the country.
               </Text>
       </Box>
-      <Box boxShadow={"rgba(0, 0, 0, 0.24) 0px 3px 8px;"} py="20px" bgColor="orange.100">
+      <Box boxShadow={"rgba(0, 0, 0, 0.24) 0px 3px 8px;"} py="24px" bgColor="orange.100">
       <Heading 
-                    lineHeight={1.1} fontWeight={600} textAlign={"center"} pb="32px"
-                    fontSize={"32px"} color="blackAlpha.800">
+                    lineHeight={1.1} fontWeight={600} textAlign={"center"} py="24px"
+                    fontSize={"36px"} color="blackAlpha.800" fontWeight="400">
                 Highlights of initiatives under WASTE TO WEALTH MISSION
               </Heading>
-              <SimpleGrid columns={4} gap="20px"w="90%" m="auto">
+              <SimpleGrid columns={4} gap="20px"w="90%" m="auto"mt="24px" >
                   {highlights.map((el,i)=><Highlights key={i} first={el.first} text={el.text}/>)}
               </SimpleGrid>
       </Box>

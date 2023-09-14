@@ -3,6 +3,7 @@ import React from 'react';
 import Hero from './hero';
 import Navbar from '../../components/navbar';
 import Header from '../../components/header';
+import Technology from './Technology';
 
 const Page1 = () => {
   return (
@@ -10,6 +11,7 @@ const Page1 = () => {
     <Navbar/>
     <Header/>
     <Hero/>
+    <Technology/>
     </>
   );
 }
