@@ -1,5 +1,6 @@
 import { Box, Flex, Heading, Image, SimpleGrid, Text } from '@chakra-ui/react';
 import React from 'react';
+
 import cbpd1 from "../assets/cbpd/cbpd1.png"
 import cbpd2 from "../assets/cbpd/cbpd2.png"
 import cbpd3 from "../assets/cbpd/cbpd3.png"
