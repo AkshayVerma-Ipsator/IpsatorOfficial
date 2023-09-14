@@ -29,8 +29,8 @@ const Header = () => {
             <Divider orientation='vertical' height="44px"/>
             <Image w="140px" objectFit="contain"src={"https://www.wastetowealth.gov.in/static/media/waste-to-wealth-logo.65754b45.png"}/>
         </Flex>
-        <Text as={Link} href="/" _hover={{cursor:"pointer"}}>Home</Text>
-        <Text as={Link} href="/cohort" _hover={{cursor:"pointer"}}>Cohort</Text>
+        <Link  to="/" _hover={{cursor:"pointer"}}>Home</Link>
+        <Link  to="/cohort" _hover={{cursor:"pointer"}}>Cohort</Link>
         <Menu >
             <MenuButton >
                 <Text display={"flex"} alignItems={"center"} gap="4px">

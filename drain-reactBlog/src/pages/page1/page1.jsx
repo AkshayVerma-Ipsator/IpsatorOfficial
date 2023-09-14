@@ -9,8 +9,6 @@ import DropDown from '../../components/Dropdown';
 const Page1 = () => {
   return (
     <>
-    <Navbar/>
-    <Header/>
     <Hero/>
     <Technology/>
     <DropDown/>
