@@ -4,6 +4,7 @@ import Hero from './hero';
 import Navbar from '../../components/navbar';
 import Header from '../../components/header';
 import Technology from './Technology';
+import DropDown from '../../components/Dropdown';
 
 const Page1 = () => {
   return (
@@ -12,6 +13,7 @@ const Page1 = () => {
     <Header/>
     <Hero/>
     <Technology/>
+    <DropDown/>
     </>
   );
 }
