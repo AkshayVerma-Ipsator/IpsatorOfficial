@@ -1,6 +1,7 @@
 import { Box, Container, Heading, Text } from '@chakra-ui/react';
 import React from 'react';
 import CleaningBPD from '../../components/CleaningBPD';
+import DWMTP from '../../components/DWMTP';
 
 const Technology = () => {
   return (
@@ -13,8 +14,11 @@ const Technology = () => {
           <Text>
             Technology Deployments
           </Text>
-          <CleaningBPD/>
           </Heading>
+          <Box>
+          <CleaningBPD/>
+          <DWMTP/>
+          </Box>
     </Box>
     </Container>
   );
