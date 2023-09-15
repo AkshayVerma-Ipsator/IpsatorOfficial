@@ -107,7 +107,7 @@ const Hero = () => {
               handling in the country.
               </Text>
       </Box>
-      <Box boxShadow={"rgba(0, 0, 0, 0.24) 0px 3px 8px;"} py="24px" bgColor="orange.100">
+      <Box boxShadow={"rgba(0, 0, 0, 0.24) 0px 3px 8px;"} py="24px" bgColor="orange.100" borderRadius={"12px"}>
       <Heading 
                     lineHeight={1.1} textAlign={"center"} py="24px"
                     fontSize={"36px"} color="blackAlpha.800" fontWeight="400">
