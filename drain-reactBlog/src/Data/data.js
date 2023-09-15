@@ -14,12 +14,12 @@ export const VisionData = [
     width: "40px",
   },
   {
-    text: "To create ready reckoners for waste management so best practices can be shared",
+    text: "To create ready reckoners for waste management so best practices can be shared.",
     img: ready,
     width: "40px",
   },
   {
-    text: "To drive community initiatives in the area fo waste management to drive behavioral change",
+    text: "To drive community initiatives in the area fo waste management to drive behavioral change.",
     img: awareness,
     width: "40px",
   },

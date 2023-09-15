@@ -8,13 +8,16 @@ import Page2 from "./pages/page2/page2";
 import AllRoutes from "./Routes/AllRoutes";
 import Navbar from "./components/navbar";
 import Header from "./components/header";
+import { Box } from "@chakra-ui/react";
 
 
 function App() {
   return (
     <>
+    <Box position={"sticky"} top={0} zIndex={1}>
     <Navbar/>
     <Header/>
+    </Box>
     <AllRoutes/>
     </>
   );
