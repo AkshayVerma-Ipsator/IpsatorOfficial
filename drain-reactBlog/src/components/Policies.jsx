@@ -17,7 +17,7 @@ import { policies } from "../Data/data";
 const Policies = () => {
 
   return (
-    <Box mt="50px">
+    <Box mt="50px" id="policies">
       <Heading
         lineHeight={1.1}
         fontWeight={600}

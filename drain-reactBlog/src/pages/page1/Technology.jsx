@@ -1,7 +1,7 @@
 import { Box, Container, HStack, Heading, Text } from '@chakra-ui/react';
 import React from 'react';
 import CleaningBPD from '../../components/CleaningBPD';
-import Dwmtp from '../../components/Dwmtp';
+import Dwmtp from '../../components/Dwmpt';
 const Technology = () => {
   const [state,setState]=React.useState(false)
   return (
