@@ -16,7 +16,7 @@ import Highlights from '../../components/highlights';
 
 const Hero = () => {
   return (
-    <Container maxW={'7xl'} >
+    <Container maxW={'7xl'} id='about' >
     <Stack
       align={'center'}
       spacing={{ base: 8, md: 10 }}

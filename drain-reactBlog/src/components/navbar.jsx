@@ -22,7 +22,7 @@ const Navbar = () => {
             <FaXTwitter size={"25px"}/>
             <AiFillInstagram size={"25px"}/>
             <AiFillYoutube size={"25px"}/>
-        </Flex>
+        </Flex> 
     </Flex>
   );
 }
