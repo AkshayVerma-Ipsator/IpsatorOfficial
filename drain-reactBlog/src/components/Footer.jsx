@@ -7,11 +7,9 @@ import {
   Flex,
   Image,
   ListItem,
-  SimpleGrid,
   Text,
   UnorderedList,
 } from "@chakra-ui/react";
-import React from "react";
 import { FooterData } from "../Data/data";
 import { FaXTwitter } from "react-icons/fa6";
 

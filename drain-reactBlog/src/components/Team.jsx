@@ -27,6 +27,7 @@ const EmployeeCard = ({ name, profession, imageSrc }) => {
         boxShadow: ["md", "lg"],
         bgColor: ["gray.200", "gray.100"],
       }}
+  
     >
       <Center
         border={"1px solid grey"}
@@ -57,7 +58,7 @@ const EmployeeCard = ({ name, profession, imageSrc }) => {
 
 const TeamContainer = () => {
   return (
-    <Flex mt={5} mb={20} direction="column" alignItems="center">
+    <Flex mt={5} mb={20} direction="column" alignItems="center" id="teams">
       <br />
       <Heading
         lineHeight={1.1}

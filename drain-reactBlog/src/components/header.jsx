@@ -39,6 +39,7 @@ const Header = () => {
                 <a href="#highlights"><MenuItem>Highlights</MenuItem></a>
                 <a href="#techDeploys"><MenuItem>Technology Deployments</MenuItem></a>
                 <a href="#policies"><MenuItem>Policies</MenuItem></a>
+                <a href="#teams"><MenuItem>Teams</MenuItem></a>
             </MenuList>
         </Menu>
     </Flex>
