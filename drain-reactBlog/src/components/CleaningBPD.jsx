@@ -20,8 +20,8 @@ const CleaningBPD = () => {
           my="32px"
           > 
         </Box>        
-        <Box p="32px" bgColor="rgb(227,180,72)" color="white">
-            <Heading  lineHeight={1.1} textAlign={"left"} py="24px" fontSize={"36px"} fontWeight="400">
+        <Box p="32px" bgColor="rgb(227,180,72)" color="white" borderRadius="12px">
+            <Heading  lineHeight={1.1} textAlign={"left"} py="24px" fontSize={"36px"} fontWeight="400" >
                         Problem Statement
             </Heading>
             <Text fontSize="16px" fontWeight={"600"}>
@@ -34,7 +34,7 @@ const CleaningBPD = () => {
                 conditions, and flooding in the monsoons.
             </Text>
         </Box>
-        <Box p="32px" my="10px" bgColor="rgb(238,216,114)" color="white">
+        <Box p="32px" my="10px" bgColor="rgb(238,216,114)" color="white" borderRadius="12px">
             <Heading  lineHeight={1.1} textAlign={"left"} py="24px" fontSize={"36px"} fontWeight="400" color="white">
                         Technology Solution
             </Heading>
@@ -49,7 +49,7 @@ const CleaningBPD = () => {
                 are very hard to dislodge and remove.
             </Text>
 
-        <Box p="32px">
+        <Box p="32px" borderRadius="12px">
             <SimpleGrid columns={2} m="auto" >
                 <Image src={cbpd1} m="auto" w="70%"></Image>
                 <Image src={cbpd2} m="auto" w="70%"></Image>
@@ -61,7 +61,7 @@ const CleaningBPD = () => {
                     in operation.
                 </Text>
         </Box>
-        <Box p="32px">
+        <Box p="32px" borderRadius="12px">
             <Text fontWeight={600}>
                 It is a self-propelled, transportable, and amphibious machine with multipurpose
                 attachments capable of removing 50-100 m3/day of waste and overcoming the limits
@@ -70,7 +70,7 @@ const CleaningBPD = () => {
             </Text>
         </Box>
         </Box>
-        <Box p="32px" bgColor="white" color="green">
+        <Box p="32px" bgColor="white" color="green" borderRadius="12px">
             <Heading  lineHeight={1.1} textAlign={"left"} py="24px" fontSize={"36px"} fontWeight="400">
                         Impact
             </Heading>
@@ -91,7 +91,7 @@ const CleaningBPD = () => {
             <Text  w="80%" m="auto" fontSize={"16px"} fontStyle={"italic"} textAlign={"center"}> 
                     Desilting of Barapullah drain
             </Text>
-        <Box p="32px">
+        <Box p="32px" borderRadius="12px">
             <Text fontWeight={600}>
             The DM-80 unit was in operation for a duration of one year from 3rd January 2022 to
             2nd January 2023. During this period, Cleantec Infra operated the unit to clean and

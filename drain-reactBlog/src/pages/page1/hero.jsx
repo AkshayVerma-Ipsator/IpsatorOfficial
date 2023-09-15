@@ -89,7 +89,7 @@ const Hero = () => {
        >
           Vision
           </Heading>
-      <SimpleGrid columns={{base:1,md:2}} gap={"20px"} m="auto">
+      <SimpleGrid columns={{base:1,md:2}} gap="20px"  m="auto" w="80%">
           {VisionData.map((el,i)=><VisionCards key={i} img={el.img} width={el.width} text={el.text}/>)}
       </SimpleGrid>
     </Box>
@@ -109,7 +109,7 @@ const Hero = () => {
       </Box>
       <Box boxShadow={"rgba(0, 0, 0, 0.24) 0px 3px 8px;"} py="24px" bgColor="orange.100">
       <Heading 
-                    lineHeight={1.1} fontWeight={600} textAlign={"center"} py="24px"
+                    lineHeight={1.1} textAlign={"center"} py="24px"
                     fontSize={"36px"} color="blackAlpha.800" fontWeight="400">
                 Highlights of initiatives under WASTE TO WEALTH MISSION
               </Heading>
