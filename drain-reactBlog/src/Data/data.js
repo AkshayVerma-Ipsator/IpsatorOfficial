@@ -70,7 +70,6 @@ export const highlights = [
   },
 ];
 
-
 //Page2
 
 export const CategoryData = [
@@ -162,5 +161,42 @@ export let DecentralizedTech = [
     video:
       "https://drive.google.com/file/d/1h6J6MEe8NEaJZ4ps5V-fa9GXatXOe8jC/preview",
   },
-]
+];
 
+//Footer
+
+export let FooterData = [
+  {
+    head: "W2W Mission",
+    tags: [
+      "About Us",
+      "Contact Us",
+      "Join Us",
+      "Partner With Us",
+      "Policies",
+      "Team",
+    ],
+  },
+  {
+    head: "Investment Opportunities",
+    tags: [
+      "Current Projects",
+      "Upcoming Projects",
+      "Validated Technologies",
+      "Submit Technology",
+      "Policies",
+      "Challenges",
+    ],
+  },
+  {
+    head: "Resources",
+    tags: [
+      "Citizens Corner",
+      "Policies",
+      "Events",
+      "Waste To Wealth",
+      "Log In",
+      "TeaTendersm"
+    ],
+  },
+];
