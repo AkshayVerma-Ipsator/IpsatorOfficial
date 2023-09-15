@@ -1,7 +1,6 @@
 import { Image, Text, VStack } from "@chakra-ui/react";
-import React from "react";
-
-const VisionCards = ({ img, text, width = "40px" }) => {
+import {PropTypes} from "prop-types"
+const VisionCards = ({ img, text }) => {
   return (
     <VStack
       textAlign={"center"}
@@ -23,5 +22,10 @@ const VisionCards = ({ img, text, width = "40px" }) => {
     </VStack>
   );
 };
+
+VisionCards.propTypes={
+  img:PropTypes.string.isRequired,
+  text:PropTypes.string.isRequired
+}
 
 export default VisionCards;

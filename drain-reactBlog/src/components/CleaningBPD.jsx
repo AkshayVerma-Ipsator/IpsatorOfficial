@@ -1,5 +1,4 @@
-import { Box, Flex, Heading, Image, SimpleGrid, Text } from '@chakra-ui/react';
-import React from 'react';
+import { Box, Heading, Image, SimpleGrid, Text } from '@chakra-ui/react';
 
 import cbpd1 from "../assets/cbpd/cbpd1.png"
 import cbpd2 from "../assets/cbpd/cbpd2.png"
@@ -76,7 +75,7 @@ const CleaningBPD = () => {
             </Heading>
             <SimpleGrid columns={3} m="auto" w="80%" >
                 <Box>
-                     <Image src={cbpd3} m="auto" w="100%" ></Image>
+                     <Image src={cbpd3} m="auto" w="100%" borderRadius="12px"></Image>
                      <Text textAlign={"center"}>Before</Text>
 
                 </Box>
@@ -84,7 +83,7 @@ const CleaningBPD = () => {
                     <TbDirectionSignFilled size={"80px"} />
                 </Box>
                 <Box>
-                    <Image src={cbpd4} m="auto" w="100%"></Image>
+                    <Image src={cbpd4} m="auto" w="100%" borderRadius="12px"></Image>
                     <Text textAlign={"center"}>After</Text>
                 </Box>
             </SimpleGrid>
