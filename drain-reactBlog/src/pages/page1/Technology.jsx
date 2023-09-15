@@ -1,12 +1,11 @@
 import { Box, Container, HStack, Heading, Text } from '@chakra-ui/react';
 import React from 'react';
 import CleaningBPD from '../../components/CleaningBPD';
-import DWMTP from '../../components/DWMTP';
-
+import Dwmtp from '../../components/Dwmtp';
 const Technology = () => {
   const [state,setState]=React.useState(false)
   return (
-    <Container maxW={'7xl'} >
+    <Container maxW={'7xl'} id="techDeploys" >
     <Box>
          <Heading
           lineHeight={1.1}
@@ -33,7 +32,7 @@ const Technology = () => {
               onClick={()=>setState(false)}
               >Decentralized Waste Management Technology Park</Heading>
             </HStack>
-          {state?<CleaningBPD/>:<DWMTP/>}
+          {state?<CleaningBPD/>:<Dwmtp/>}
           </Box>
     </Box>
     </Container>

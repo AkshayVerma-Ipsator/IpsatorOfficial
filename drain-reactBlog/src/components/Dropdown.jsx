@@ -1,10 +1,8 @@
 import { ChevronDownIcon } from '@chakra-ui/icons'
-import { Box, Button, Container, Heading, Menu, MenuButton, MenuItem, MenuList } from '@chakra-ui/react'
-import React from 'react'
+import { Box, Button, Heading, Menu, MenuButton, MenuItem, MenuList } from '@chakra-ui/react'
 
 const DropDown = () => {
 
-    let main = ["Municipal Solid Waste","C and D Waste","Plastic Waste","E Waste","Biomedical Waste","Biomedical Waste","Sewage Treatment","Climate Change"]
 
     let values = [
         {
@@ -51,7 +49,7 @@ const DropDown = () => {
 
   return (
     // <Container maxw={"7xl"}>
-    <Box>
+    <Box id="policies">
      <Heading
           lineHeight={1.1}
           fontWeight={600}
@@ -66,7 +64,7 @@ const DropDown = () => {
                 {el.main}
             </MenuButton>
             <MenuList>
-                {el.arr.map((e,i) => <MenuItem  key={i}><a href="https://drive.google.com/drive/folders/1HbFUMlQpBKV3kVka5FJsSziX5gugRVHH?usp=sharing" target="_blank" >{e}</a></MenuItem>)}
+                {el.arr.map((e,i) => <MenuItem  key={i}><a href="https://drive.google.com/drive/folders/1HbFUMlQpBKV3kVka5FJsSziX5gugRVHH?usp=sharing" rel="noreferrer" target="_blank" >{e}</a></MenuItem>)}
             </MenuList>
         </Menu>
         ))}

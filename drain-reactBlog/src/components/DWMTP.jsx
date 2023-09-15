@@ -1,12 +1,11 @@
 import { Box, Heading, Image, SimpleGrid, Text } from '@chakra-ui/react';
-import React from 'react';
 import { TbDirectionSignFilled } from "react-icons/tb";
 import img1 from "../assets/cbpd/dwmtp.png"
 import img2 from "../assets/cbpd/dwmtp1.png"
 import { DecentralizedTech } from '../Data/data';
 import Tech from './tech';
 
-const DWMTP = () => {
+ const Dwmtp = () => {
   return (
     <Box color="black" bgColor="RGB(254 235 200)" borderRadius="12px" p="32px" my="32px">
     <Box
@@ -50,7 +49,7 @@ const DWMTP = () => {
          Following 4 Technologies are
         deployed at the site:
         </Text>
-        <SimpleGrid columns={2} gap="20px" mt="16px">
+        <SimpleGrid columns={{base:1,md:2}} gap="20px" mt="16px">
             {DecentralizedTech.map((el,i)=><Tech key={i} title={el.title} text={el.content} url={el.video}/>)}
         </SimpleGrid>
  
@@ -101,4 +100,4 @@ advantage of reduction in the transportation of the waste.
   );
 }
 
-export default DWMTP;
+export default Dwmtp
