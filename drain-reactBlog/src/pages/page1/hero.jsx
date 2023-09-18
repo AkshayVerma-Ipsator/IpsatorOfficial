@@ -106,8 +106,9 @@ const Hero = () => {
       </Box>
       <Box  boxShadow={"rgba(0, 0, 0, 0.24) 0px 3px 8px;"} py="24px" bgColor="orange.100" borderRadius={"12px"} className='scroll' id="highlights" >
       <Heading 
-                    lineHeight={1.1} textAlign={"center"} py="24px"
-                    fontSize={"36px"} color="blackAlpha.800" fontWeight="400">
+                    lineHeight={1.1} fontWeight={400} textAlign={"center"} py="24px"
+                    fontSize={"36px"} color="blackAlpha.800" >
+
                 Highlights of initiatives under WASTE TO WEALTH MISSION
               </Heading>
               <SimpleGrid columns={{base:2,md:4}} gap="20px"w="90%" m="auto"mt="24px" >
