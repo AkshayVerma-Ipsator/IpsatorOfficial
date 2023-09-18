@@ -22,6 +22,7 @@ import {
   import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons'
   import satya from "../assets/satyamev.png"
   import {Link} from "react-router-dom";
+import { FaChevronDown } from 'react-icons/fa6';
 const Links = ['Home', 'Cohort', 'Section']
 
 const NavLink = (props) => {
@@ -46,8 +47,8 @@ const NewNavbar = () => {
 
     const { isOpen, onOpen, onClose } = useDisclosure()
   return (
-    <>
-        <Box bg={useColorModeValue('#183b63', 'gray.900')} px={4} color="white">
+    <Box >
+        <Box px={{base:"0px",md:"50px",lg:"100px"}} bg={useColorModeValue('#183b63', 'gray.900')} color="white">
         <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
           <IconButton
             size={'md'}
@@ -119,8 +120,23 @@ const NewNavbar = () => {
                 _hover={{
                 textDecoration: 'underline',
                 }}
-                href={'#'}>
-                <Link to="/">Section</Link>
+                >
+                <Menu >
+            <MenuButton >
+                <Text display={"flex"} alignItems={"center"} gap="4px">
+                    Sections
+                <FaChevronDown />
+                </Text>
+            </MenuButton>
+            <MenuList color="black" display={"grid"} gridTemplateColumns={"repeat(3,1fr)"}>
+            <a href='#about'><MenuItem>About</MenuItem></a>
+                {/* <MenuItem></MenuItem> */}
+                <a href="#highlights"><MenuItem>Highlights</MenuItem></a>
+                <a href="#techDeploys"><MenuItem>Technology Deployments</MenuItem></a>
+                <a href="#policies"><MenuItem>Policies</MenuItem></a>
+                <a href="#teams"><MenuItem>Teams</MenuItem></a>
+            </MenuList>
+        </Menu>
             </Box>
             </HStack>
           </Flex>
@@ -136,7 +152,7 @@ const NewNavbar = () => {
           </Box>
         ) : null}
       </Box>
-    </>
+    </Box>
   )
 }
 

@@ -12,7 +12,6 @@ const AllRoutes = () => {
   return (
     <Routes>
         <Route path='/' element={<Page1/>}/>
-        <Route path='/nav' element={<NewNavbar/>}/>
         <Route path="/cohort" element={<Page2/>}/>
     </Routes>
 

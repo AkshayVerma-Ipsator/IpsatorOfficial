@@ -4,6 +4,7 @@ import Navbar from "./components/navbar";
 import Header from "./components/header";
 import Footer from "./components/Footer";
 import { Box } from "@chakra-ui/react";
+import NewNavbar from "./components/NewNavbar";
 
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
     <>
     <Box position={"sticky"} top={0} zIndex={100}>
     <Navbar/>
-    <Header/>
+    <NewNavbar/>
     </Box>
     <AllRoutes/>
     <Footer />
